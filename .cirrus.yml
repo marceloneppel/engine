@@ -5,8 +5,8 @@ gke_container:
  cluster_name: build-32-cluster
  zone: us-central1-a
  namespace: default
- cpu: 30 # can't use all 30-cores; system pods needs cores too
- memory: 100Gb # similarly, can't use all 100Gb memory
+ cpu: 1 # can't use all 30-cores; system pods needs cores too
+ memory: 2Gb # similarly, can't use all 100Gb memory
 
 task:
   env:
